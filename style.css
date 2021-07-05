@@ -1,0 +1,146 @@
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	border-radius: 50%;
+	margin-right: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.header-right {
+  float: right;
+}
+
+.bell-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.main {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 220px;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+	margin-left: 1000px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.success {
+    padding: 20px;
+    background-color: green; /* green */
+    color: white;
+    margin-bottom: 15px;
+	margin-left: 1000px;
+}
+
+.warning {
+    padding: 20px;
+    background-color: orange; /* green */
+    color: white;
+    margin-bottom: 15px;
+	margin-left: 1000px;
+}
+
+.header {
+  animation: move 3s;
+  -webkit-animation: move 3s;
+}
+
+@keyframes move {
+  from {
+  margin-down: 100%;
+  width: 300%;  
+  }
+
+  to {
+  margin-down: 0%;
+  width: 100%;
+  }
+}
+   
+@-webkit-keyframes move {
+  from {
+  margin-down: 100%;
+  width: 300%;  
+  }
+
+  to {
+  margin-down: 0%;
+  width: 100%;
+  }
+}
